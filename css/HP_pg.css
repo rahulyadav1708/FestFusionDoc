@@ -1,0 +1,270 @@
+﻿* {
+    cursor: url("img/cursor.svg"), auto;
+}
+
+body {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.banner {
+    height: 500px;
+    width: 100%;
+    margin-top: 7px;
+    animation: zoom-in 2s ease forwards;
+}
+/*this part is banner zoom */
+@keyframes zoom-in {
+    from {
+        transform: scale(0.5);
+    }
+
+    to {
+        transform: scale(1); /* Zoom in to 150% */
+    }
+}
+
+.hw {
+    background-color: #F8F8F8;
+}
+
+    .hw h1 {
+        text-align: center;
+    }
+
+    .hw p {
+        text-align: center;
+    }
+
+.table-container {
+    text-align: center;
+}
+
+.pargraph {
+    color: #A8A8A8;
+    font-size: 18px;
+}
+
+.subtext {
+    color: darkgrey;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.maintext {
+    line-height: 0;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hiw {
+    color: black;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+th, td {
+    /* border: 1px solid black; */
+    padding: 8px;
+    text-align: center;
+}
+
+    td:nth-child(1), th:nth-child(1) {
+        text-align: right;
+    }
+
+    td:nth-child(2), th:nth-child(2) {
+        text-align: left;
+    }
+
+
+
+/*feature section css*/
+
+.A {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.feature {
+    height: 124px;
+    width: 302px;
+    padding: 5px;
+    padding-top: 20px;
+}
+
+.dff {
+    background-color: #027b9a;
+    height: 180px;
+}
+
+.feat_head {
+    text-align: center;
+}
+
+.head {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    /*font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
+    font-weight: 200;
+    font-size: 40px;
+    color: black;
+}
+
+.bd {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    /*font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
+}
+/* Product */
+
+.cont_flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.product-card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.product-card:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.product-image {
+    width: 77%;
+    height: 172px;
+    margin-left: 23px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.product-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.product-description {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    width: 238px;
+    font-size:19px;
+    border-radius: 4px;
+    background-color: #027b9a;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #027b9a;
+}
+
+    .btn-primary:hover {
+        background-color: #1a6a82;
+    }
+/*Product section end */
+
+/*faq section*/
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+.faq-header {
+    font-size: 42px;
+    border-bottom: 1px dotted #ccc;
+    padding: 24px;
+    text-align: center;
+}
+
+.faq-content {
+    margin: 0 auto;
+}
+
+.faq-question {
+    padding: 20px 0;
+    border-bottom: 1px dotted #ccc;
+}
+
+.panel-title {
+    font-size: 24px;
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 10px 10px 0 48px;
+    display: block;
+    cursor: pointer;
+}
+
+.panel-content {
+    font-size: 20px;
+    padding: 0px 14px;
+    margin: 0 40px;
+    height: 0;
+    overflow: hidden;
+    z-index: -1;
+    position: relative;
+    opacity: 0;
+    -webkit-transition: .4s ease;
+    -moz-transition: .4s ease;
+    -o-transition: .4s ease;
+    transition: .4s ease;
+}
+
+.panel:checked ~ .panel-content {
+    height: auto;
+    opacity: 1;
+    padding: 14px;
+}
+
+.plus {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 4px;
+    z-index: 5;
+    font-size: 42px;
+    line-height: 100%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -webkit-transition: .2s ease;
+    -moz-transition: .2s ease;
+    -o-transition: .2s ease;
+    transition: .2s ease;
+}
+
+.panel:checked ~ .plus {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.panel {
+    display: none;
+}
