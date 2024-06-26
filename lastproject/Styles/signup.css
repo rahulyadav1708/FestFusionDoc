@@ -1,0 +1,62 @@
+﻿.signupbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    height: 600px;
+    padding: 50px 40px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.5);
+}
+
+ .btnsubmit
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    outline: none;
+    font-size: 16px;
+    color: rgb(227, 25, 25);
+    background-color: rgb(165, 211, 25);
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+.txtemail, .txtpass
+{
+    border: none;
+    border-bottom: 3px solid #fff;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.lblemail, .lblpass
+{
+    font-weight: bold;
+    color: #fff;
+}
+
+.txtemail, .txtpass, .btnsubmit{
+    width:100%;
+    margin-bottom:20px;
+
+}
+
+#log1 {
+    padding: 0;
+    margin: 0;
+    background-image: url('../img/signpic.jpg');
+    background-size: 100% 100%;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.btnsubmit:hover{
+    background-color:rgb(103, 164, 164);
+    
+}

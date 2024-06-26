@@ -1,0 +1,65 @@
+﻿body {
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  bottom: 0;
+  overflow: hidden;
+}
+
+*{
+  margin: 0px;
+}
+#bg{
+  position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: rgba(68, 108, 95, 0.553);
+    z-index: 999;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+   
+}
+#mid>a{
+  font-size: 21px;
+  margin-right: 6%;
+  
+  margin-top: 5px;
+  font-family: sans-serif;
+}
+.shift{
+    margin-left:60%;
+}
+.loginicon{
+    height:40px;
+    width:40px;
+    margin-left:-86px;
+    margin-top:10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  /* background-color: #ddd; */
+  color: black;
+}
+
+
+
+.topnav .icon {
+  display: none;
+}

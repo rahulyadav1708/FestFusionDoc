@@ -1,0 +1,113 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="master.master.cs" Inherits="master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="Styles/index.css" rel="stylesheet" />
+
+    <link href="Styles/navbar.css" rel="stylesheet" />
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div class="topnav" id="myTopnav" style="background-color: rgba(34, 109, 84, 0.553);">
+
+                <div id="mid">
+                    <a href="#news"></a>
+                    <a href="./homepagelogout.aspx">Home</a>
+
+                    <img
+                        class="loginicon"
+                        src="img/user%20icon.png" />
+
+                     
+
+                    <a class="shift" href="Login.aspx">Logout</a>
+
+
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <br />
+
+        <hr />
+        <div class="top-name">FESTFUSION</div>
+        <hr />
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+      <div class="footer">
+          
+          <div>
+           
+               <div>
+                   <div style="margin-bottom:10px;">   
+    <a href="https://www.facebook.com/festfusion">
+        <img style="border-radius:50px;" height="50px;" width="50px; " src="img/facebook.png" alt="Facebook" /> 
+    </a> 
+    Facebook
+</div>
+<div>   
+    <a href="https://www.google.com/festfusion">
+        <img style="border-radius:50px;" height="50px;" width="50px; " src="img/google.png" alt="Google" /> 
+    </a> 
+    Google
+</div> 
+<div>  
+    <a href="https://www.instagram.com/festfusion">
+        <img style="border-radius:50px;" height="50px;" width="50px; " src="img/instagram.png" alt="Instagram" /> 
+    </a> 
+    Instagram
+</div> 
+<div>  
+    <a href="https://www.linkedin.com/festfusion">
+        <img style="border-radius:50px;" height="50px;" width="50px; " src="img/linkedin.png" alt="LinkedIn" /> 
+    </a> 
+    LinkedIn
+</div>
+
+               
+               </div>
+
+
+                <div>
+                    <p>Company</p><br />
+                    <li>Blog</li><br />
+                    <li>About Us</li><br />
+                    <li>Contact Us</li><br />
+                    <li>Cities</li>
+                </div>
+                <div>
+                    <p>Legal</p><br />
+                    <li>Terms Of Service</li><br />
+                    <li>Privacy Policy</li><br />
+                    <li>Content Guidelines</li><br />
+                    <li>Community Guidelines</li>
+                    
+                </div>
+            </div>
+            <hr />
+            <p>Icons and images  are downoaded by pixabay.</p>
+            <hr />
+            <p>
+                © Made by Rahul Yadav and Rohan kangane. All rights
+        reserved. | Terms Of Service | Privacy Policy
+            </p>
+
+        </div>
+
+
+       
+    </form>
+</body>
+</html>

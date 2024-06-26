@@ -1,0 +1,323 @@
+﻿.heading{
+    display: flex;
+   
+    align-items:center;
+}
+.log2{
+    
+    position:relative;
+    margin:30px 0px 0px 60px;
+  Height:80px;
+  width:80px;
+}
+.log1{
+    
+   position:absolute;;
+    
+   Height:100%;
+   width:100%;
+    top: 7px;
+    left: -1px;
+}
+
+.vivah{
+    font-size:70px;
+   color:red;
+   margin-left:450px;
+}
+.img{
+    margin-left:80px;
+    height:200px;
+    width:200px;
+}
+.navbar {
+    background-color: #333;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 5px;
+    margin-left: 50px;
+    margin: 5px;
+    display: flex;
+    align-items:center;
+}
+
+.navbar li {
+    margin-right: 100px;
+}
+
+.navbar li:last-child {
+    margin-left: -70px;
+}
+
+
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: yellow;
+}
+.navi{
+    height:30px;
+    width:30px;
+    margin-left: 600px;
+}
+.navil{
+    height:30px;
+    width:30px;
+    margin-left: 600px;
+}
+.users{
+    background-color:aqua ;
+    height:180px;
+    width:1330px;
+     display: flex;
+     flex-wrap:nowrap;
+     justify-content:space-around;
+     padding:30px;
+}
+.users1{
+  background-color:aqua ;
+    height:120px;
+    width:1330px;
+     display: flex;
+    
+     justify-content:space-around;
+     padding:30px;
+}
+.users2{
+  background-color:#FF99CC ;
+    height:120px;
+    width:1350px;
+     display: flex;
+    
+     justify-content:space-around;
+     padding:30px;
+    color:white;
+}
+.help{
+    position:relative;
+    top:70px;
+    left:1250px;
+    color:chartreuse  ;
+    text-decoration:none;
+    font-size:20px;
+}
+.help1{
+    position:relative;
+     top:80px;
+    left:1165px;
+}
+
+/*for login page body*/
+#log {
+    padding: 0;
+    margin: 0;
+   background-color:aqua;
+    background-size: 100% 100%;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.besidepic{
+     position:absolute;
+  width: 1200px;
+    height:500px;
+    margin-top:50px;
+    margin-left:50px;
+}
+p{
+    position:absolute;
+   font-size:23px;
+   color:white;
+   margin-left:80px;
+   margin-top:200px;
+   font-style:italic;
+}
+/*for login page loginbox*/
+.loginbx{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height:400px;
+    padding: 50px 40px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.5);
+    margin-left:300px;
+}
+/*for login page login box image(icon)*/
+.user{
+    width:100px;
+    height:100px;
+    overflow:hidden;
+    top:calc(-100px/2);
+    left :calc(50% - 50px);
+    position:absolute;
+}
+/*for login page login website (icon)*/
+.user1{
+    width:150px;
+    height:150px;
+  
+  margin-left:10px;
+   
+    position:relative;
+}
+/*for login page "log in here"*/
+h2{
+    padding:5px;
+    margin:0;
+    text-align:center;
+    color:rgb(255, 217, 9);
+}
+/*for login page login box label*/
+.lblemail, .lblpass{
+    font-weight:bold;
+    color:#fff;
+
+}
+/*for login page login box textbox*/
+.txtemail, .txtpass, .btnsubmit{
+    width:100%;
+    margin-bottom:20px;
+
+}
+/*for login page login box textbox*/
+.txtemail, .txtpass{
+    border:none;
+    border-bottom:3px solid #fff;
+    outline: none;
+    height:40px;
+    color:#fff;
+    font-size:16px;
+    background-color:transparent;
+}
+/*for login page login box placeholder*/
+::placeholder{
+    color:rgba(255,255,255,0.5);
+}
+/*for login page login box sign in button*/
+.btnsubmit{
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    outline: none;
+    font-size:16px;
+    color:rgb(227, 25, 25);
+    background-color:rgb(165, 211, 25);
+    cursor:pointer;
+    border-radius:20px;
+    transition: .3s ease-in-out;
+
+}
+/*for login page login box sign in button hover*/
+.btnsubmit:hover{
+    background-color:rgb(103, 164, 164);
+    
+}
+/*for login page login box forgot link*/
+.btnforget{
+    font-size:16px;
+    font-weight:700;
+    text-decoration:none;
+    color:#fff;
+
+}
+/*for login page login box forgot link hover*/
+.btnforget:hover{
+    text-decoration:underline;
+}
+/*for login page login box register link*/
+.btnregister{
+    font-size:16px;
+    font-weight:700;
+    text-decoration:none;
+    color:#fff;
+}
+/*for login page login box register link hover*/
+.btnregister:hover{
+    text-decoration:underline;
+}
+
+
+
+
+    
+
+.helplog{
+    position:absolute;
+    height:30px;
+    width:30px;
+    margin:70px 0px 0px 1210px;
+}
+.helptxt{
+   position:relative;
+    bottom:60px;
+    left:1250px;
+    color:yellow;
+    text-decoration:none;
+    font-size:25px;
+
+}
+
+.pic1{
+    height:100%;
+    width:100%;
+}
+.helppage {
+    height: 500px;
+    width: 100%;
+    background-color: rgb(19, 205, 221);
+    display:flex;
+    
+}
+.helpmain{
+    height:300px;
+    width:70%;
+    margin-top:100px;
+    padding:20px;
+}
+.para{
+    margin-top:100px;
+    margin-left:100px;
+}
+.signupbox{
+     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    height:600px;
+    padding: 50px 40px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.5);
+}
+#log1 {
+    padding: 0;
+    margin: 0;
+    background-image: url('img/signuppic.jpg');
+    background-size: 100% 100%;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+ background-color:rgba(11, 10, 10, 0.32);
+ opacity:1;
+ padding:20px;
+ margin:30px 0px 40px 375px;
+ height:300px;
+ width:700px;
+}
+
